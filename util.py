@@ -17,6 +17,4 @@ def get_dependency_structure(sentence):
   return list(deps.next().triples())
 
 
-# print get_pos_tags(u"Donald Trump is such a dog")
-# print get_dependency_structure("Hey, I am a dog named Donald Trump")
-# print [dep_tuple for dep_triple in get_dependency_structure("Hey I am a dog named Donald Trump") for dep_tuple in dep_triple if isinstance(dep_tuple, tuple)]
+# print get_dependency_structure("My name is Adam and I was once a boy, but am now a man.")
